@@ -1245,6 +1245,79 @@ torta(
 )
 ```
 
+
+
+---
+class: inverse, middle, center
+
+# Razón de estudiantes por docente
+
+---
+
+# <h3> Evolución anual razón de estudiantes por docente </h3>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+
+col <-   c("#f15a24") # verde
+
+series_a(
+  datos = Tendencias,
+  categoria = "Razon",
+  colores = col,
+  titulo = " ",
+  eje = "Razón"
+)
+```
+
+---
+
+# <h3> Evolución anual razón estudiantes por docente - sedes andinas</h3>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+
+col <-   c("#6d6666", # gris, Tumaco
+            "#8cc63f", # verde, Bogotá
+            "#0071bc", # azul vivo, Manizales
+            "#f15a24" # naranja, Medellin
+            )
+
+series_a(
+  datos = Tendencias,
+  categoria = "RazonSED",
+  colores = col,
+  titulo = " ",
+  eje = "Razón"
+)
+
+```
+---
+# <h3> Estado actual razón de estudiantes por docente - sedes andinas </h3>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+
+ano <- 2017
+semestre <- 2 # 1 o 2 según corresponda
+periodo_actual_titulo <- " 2017"
+
+col <-   c("#6d6666", # gris, Tumaco
+            "#8cc63f", # verde, Bogotá
+            "#0071bc", # azul vivo, Manizales
+            "#f15a24" # naranja, Medellin
+            )
+
+barra_vertical(
+  datos = Tendencias,
+  categoria = "RazonSEDACT",
+  colores = col,
+  ano = ano,
+  periodo = semestre,
+  periodo_titulo = periodo_actual_titulo,
+  titulo = " ", 
+  eje = "Razón")
+
+```
+
+
 ---
 class: inverse, middle, center
 
