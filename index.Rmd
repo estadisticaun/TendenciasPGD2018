@@ -1546,6 +1546,361 @@ torta(
 )
 ```
 
+---
+
+class: inverse, middle, center
+
+# Capacidad y resultados de investigación
+
+---
+# <h3> Evolución anual de grupos activos de investigación</h3>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+
+col <-   c("#f15a24") # verde
+
+series_a(
+  datos = Tendencias,
+  categoria = "Grupos",
+  colores = col,
+  titulo = " ",
+  eje = "Número de grupos de investigación"
+)
+```
+
+---
+
+# <h3> Distribución actual de grupos de investigación por sedes </h3>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+ano <- 2017
+semestre <- 2 # 1 o 2 según corresponda
+periodo_actual_titulo <- " 2017"
+
+
+col <-   c( "#29abe2", # azul claro, Amazonia
+            "#8cc63f", # verde, Bogotá
+            "#c1272d", # rojo, Caribe
+            "#0071bc", # azul vivo, Manizales
+            "#f15a24", # naranja, Medellin
+            "#fbb03b", # amarillo, Orinoquia
+            "#6d6666" # gris, Tumaco
+         ) 
+             
+torta(
+  datos = Tendencias,
+  variable = "GruposSED",
+  colores = col,
+  titulo = " ",
+  etiqueta = "Total grupos",
+  ano = ano,
+  periodo = semestre,
+  periodo_titulo = periodo_actual_titulo
+)
+```
+
+---
+
+# <h3> Evolución grupos de investigación categorizados por Colciencias</h3>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+
+col <-   c( "#f15a24", # naranja, Medellin
+            "#8cc63f" # verde, Bogotá
+            )
+
+series_a(
+  datos = Tendencias,
+  categoria = "GruposCAT",
+  colores = col,
+  titulo = " ",
+  eje = "Número de grupos"
+)
+
+```
+---
+
+# <h3> Proporción actual de grupos categorizados por Colciencias </h3>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+ano <- 2017
+semestre <- 2 # 1 o 2 según corresponda
+periodo_actual_titulo <- " 2017"
+
+col <-   c( "#f15a24", # naranja, Medellin
+            "#8cc63f" # verde, Bogotá
+            )
+
+torta(
+  datos = Tendencias,
+  variable = "GruposCATACT",
+  colores = col,
+  titulo = " ",
+  etiqueta = "Total grupos",
+  ano = ano,
+  periodo = semestre,
+  periodo_titulo = periodo_actual_titulo
+)
+```
+
+---
+
+# <h3> Clasificación grupos categorizados de investigación - Colciencias</h3>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+ano <- 2017
+semestre <- 2 # 1 o 2 según corresponda
+periodo_actual_titulo <- " 2017"
+
+
+col <-   c( "#29abe2", # azul claro, Amazonia
+            "#8cc63f", # verde, Bogotá
+            "#c1272d", # rojo, Caribe
+            "#6d6666", # gris, Tumaco
+            "#f15a24"
+         ) 
+             
+torta(
+  datos = Tendencias,
+  variable = "GruposCATCOL",
+  colores = col,
+  titulo = " ",
+  etiqueta = "Total grupos",
+  ano = ano,
+  periodo = semestre,
+  periodo_titulo = periodo_actual_titulo
+)
+```
+
+---
+# <h3> Evolución anual de  revistas de investigación</h3>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+
+col <-   c("#f15a24") # verde
+
+series_a(
+  datos = Tendencias,
+  categoria = "Revistas",
+  colores = col,
+  titulo = " ",
+  eje = "Número de revistas"
+)
+```
+
+---
+
+# <h3> Evolución anual de revistas por categoría</h3>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+
+col <-   c("#8cc63f", # verde, Bogotá
+            "#f15a24", # naranja, Medellin
+            "#0071bc", # azul vivo, Manizales
+            "#6d6666"
+            )
+
+series_a(
+  datos = Tendencias,
+  categoria = "RevistasCAT",
+  colores = col,
+  titulo = " ",
+  eje = "Número de revistas"
+)
+```
+
+---
+
+# <h3> Proporción actual de revistas por categoría - Colciencias</h3>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+
+ano <- 2017
+semestre <- 2 # 1 o 2 según corresponda
+periodo_actual_titulo <- " 2017"
+
+
+col <-   c("#8cc63f", # verde, Bogotá
+            "#f15a24", # naranja, Medellin
+            "#0071bc", # azul vivo, Manizales
+            "#6d6666"
+            )
+
+torta(
+  datos = Tendencias,
+  variable = "RevistasCATACT",
+  colores = col,
+  titulo = " ",
+  etiqueta = "Total revistas",
+  ano = ano,
+  periodo = semestre,
+  periodo_titulo = periodo_actual_titulo
+)
+```
+
+---
+
+# <h3> Evolución produc. académica de la Universidad registrada en SCOPUS</h3>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+
+col <-   c("#f15a24") # verde
+
+series_a(
+  datos = Tendencias,
+  categoria = "SCOPUS",
+  colores = col,
+  titulo = " ",
+  eje = "Número de documentos"
+)
+```
+
+---
+
+# <h3> Evolución produc. académica en SCOPUS por tipo documento</h3>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+
+col <-   c( "#f15a24", # naranja, Medellin
+            "#8cc63f" # verde, Bogotá
+            )
+
+series_a(
+  datos = Tendencias,
+  categoria = "SCOPUSTip",
+  colores = col,
+  titulo = " ",
+  eje = "Número de documentos"
+)
+
+```
+---
+
+# <h3> producción académica actual en SCOPUS por tipo documento </h3>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+ano <- 2016
+semestre <- 2 # 1 o 2 según corresponda
+periodo_actual_titulo <- " 2016"
+
+col <-   c( "#f15a24", # naranja, Medellin
+            "#8cc63f" # verde, Bogotá
+            )
+
+torta(
+  datos = Tendencias,
+  variable = "SCOPUSTipACT",
+  colores = col,
+  titulo = " ",
+  etiqueta = "Número de documentos",
+  ano = ano,
+  periodo = semestre,
+  periodo_titulo = periodo_actual_titulo
+)
+```
+---
+
+# <h3> Evolución producción académica en SCOPUS por sedes</h3>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+
+col <-   c( "#29abe2", # azul claro, Amazonia
+            "#8cc63f", # verde, Bogotá
+            "#c1272d", # rojo, Caribe
+            "#0071bc", # azul vivo, Manizales
+            "#f15a24", # naranja, Medellin
+            "#fbb03b", # amarillo, Orinoquia
+            "#6d6666" # gris, Tumaco
+         ) 
+
+series_a(
+  datos = Tendencias,
+  categoria = "SCOPUSSed",
+  colores = col,
+  titulo = " ",
+  eje = "Número de documentos"
+)
+```
+---
+
+# <h3> Distribución producción académica en SCOPUS por sedes </h3>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+ano <- 2016
+semestre <- 2 # 1 o 2 según corresponda
+periodo_actual_titulo <- " 2016"
+
+
+col <-   c( "#29abe2", # azul claro, Amazonia
+            "#8cc63f", # verde, Bogotá
+            "#c1272d", # rojo, Caribe
+            "#0071bc", # azul vivo, Manizales
+            "#f15a24", # naranja, Medellin
+            "#fbb03b", # amarillo, Orinoquia
+            "#6d6666" # gris, Tumaco
+         ) 
+             
+torta(
+  datos = Tendencias,
+  variable = "SCOPUSSedACT",
+  colores = col,
+  titulo = " ",
+  etiqueta = "Número de documentos",
+  ano = ano,
+  periodo = semestre,
+  periodo_titulo = periodo_actual_titulo
+)
+```
+
+---
+
+# <h3> Evolución acumulada de citaciones en SCOPUS Periodo 2007-2016</h3>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+
+col <-   c( "#f15a24", # naranja, Medellin
+            "#8cc63f", # verde, Bogotá
+            "#6d6666" # gris, Tumaco
+         ) 
+
+series_a(
+  datos = Tendencias,
+  categoria = "Citaciones",
+  colores = col,
+  titulo = " ",
+  eje = "Número de citaciones"
+)
+```
+---
+
+# <h3> producción acumulada de citaciones en SCOPUS Periodo 2007-2016 </h3>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+ano <- 2016
+semestre <- 2 # 1 o 2 según corresponda
+periodo_actual_titulo <- " 2016"
+
+
+col <-   c( "#f15a24", # naranja, Medellin
+            "#8cc63f", # verde, Bogotá
+            "#6d6666" # gris, Tumaco
+         ) 
+             
+torta(
+  datos = Tendencias,
+  variable = "CitacionesACUM",
+  colores = col,
+  titulo = " ",
+  etiqueta = "Número de citaciones",
+  ano = ano,
+  periodo = semestre,
+  periodo_titulo = periodo_actual_titulo
+)
+```
+
+
+
+
 
 ---
 class: inverse, middle, center
