@@ -1898,6 +1898,80 @@ torta(
 )
 ```
 
+---
+
+class: inverse, middle, center
+
+# Bienestar Universitario <br/> <br/> Área de Gestión y Fomento Socieconómico
+
+---
+# <h4> Evolución cobertura beneficiarios Área de Gestión y Fomento Socioeconómico</h4>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+
+col <-   c("#f15a24") # verde
+
+series(
+  datos = Tendencias,
+  categoria = "BienestarECO",
+  colores = col,
+  titulo = " ",
+  eje = "Total beneficiarios (k: miles)"
+)
+```
+
+
+---
+# <h4> Evolución cobertura programas Área de Gestión y Fomento Socioeconómico</h4>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+
+col <-   c( "#f15a24", # naranja, Medellin
+            "#8cc63f", # verde, Bogotá
+            "#6d6666", # gris, Tumaco
+            "#29abe2", # azul claro, Amazonia
+            "#c1272d", # rojo, Caribe
+            "#0071bc"
+         ) 
+
+
+series(
+  datos = Tendencias,
+  categoria = "BienestarECOPRO",
+  colores = col,
+  titulo = " ",
+  eje = "Total beneficiarios (k: miles)"
+)
+```
+---
+
+# <h3> Distribución programas Área de Gestión y Fomento Socioeconómico </h3>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+ano <- 2017
+semestre <- 2 # 1 o 2 según corresponda
+periodo_actual_titulo <- " 2017"
+
+
+col <-   c( "#f15a24", # naranja, Medellin
+            "#8cc63f", # verde, Bogotá
+            "#6d6666", # gris, Tumaco
+            "#29abe2", # azul claro, Amazonia
+            "#0071bc"
+         ) 
+             
+torta(
+  datos = Tendencias,
+  variable = "BienestarECOPROACT",
+  colores = col,
+  titulo = " ",
+  etiqueta = "Total beneficiarios",
+  ano = ano,
+  periodo = semestre,
+  periodo_titulo = periodo_actual_titulo
+)
+```
+
 
 
 
