@@ -1225,7 +1225,7 @@ series_a(
 
 ---
 
-# <h3> Proporción de docentes de carrera por máximo nivel de formación </h3>
+# <h3> Proporción de docentes de carrera por rango de edad </h3>
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
 ano <- 2018
