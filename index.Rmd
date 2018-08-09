@@ -13,26 +13,33 @@ options(htmltools.dir.version = FALSE)
 source("Manipulación.R")
 source("Funciones.R", encoding = 'UTF-8')
 ```
+
 # Contenido
 
- <p style="font-size:100%;"> 1. Programas académicos </p>
- <p style="font-size:100%;"> 2. Inscritos y admitidos </p> 
- <p style="font-size:100%;"> 3. Matriculados primera vez </p>
- <p style="font-size:100%;"> 4. Matriculados </p>
- <p style="font-size:100%;"> 5. Graduados </p>
- <p style="font-size:100%;"> 6. Docentes de carrera </p>
- <p style="font-size:100%;"> 7. Razón de estudiantes por docente </p>
- <p style="font-size:100%;"> 8. Administrativos de carrera </p>
- <p style="font-size:100%;"> 9. Capacidad y resultados de investigación </p>
- <p style="font-size:100%;"> 10. Bienestar universitario </p>
- <p style="font-size:100%;"> 11. Pruebas Saber PRO 2017 </p>
- <p style="font-size:100%;"> 12. Deserción </p>
+.pull-left[
+ ### [1. Programas académicos](https://estadisticaun.github.io/TendenciasPGD2018/#3)
+ ### [2. Inscritos y admitidos](https://estadisticaun.github.io/TendenciasPGD2018/#9)
+ ### [3. Matriculados primera vez](https://estadisticaun.github.io/TendenciasPGD2018/#24)
+ ### [4. Matriculados](https://estadisticaun.github.io/TendenciasPGD2018/#27)
+ ### [5. Graduados](https://estadisticaun.github.io/TendenciasPGD2018/#38)
+ ### [6. Docentes de carrera](https://estadisticaun.github.io/TendenciasPGD2018/#47) 
+ ]
+ 
+ .pull-right[
+ 
+ ### [7. Razón de estudiantes por docente](https://estadisticaun.github.io/TendenciasPGD2018/#62) 
+ ### [8. Administrativos de carrera](https://estadisticaun.github.io/TendenciasPGD2018/#66) 
+ ### [9. Capacidad y resultados de investigación](https://estadisticaun.github.io/TendenciasPGD2018/#76) 
+ ### [10. Bienestar universitario](https://estadisticaun.github.io/TendenciasPGD2018/#92) 
+ ### [11. Pruebas Saber PRO 2017](https://estadisticaun.github.io/TendenciasPGD2018/#96) 
+ ### [12. Deserción](https://estadisticaun.github.io/TendenciasPGD2018/#121) 
+]
 
 ---
 
 class: inverse, middle, center
 
-# Programas Académicos
+# 1. Programas Académicos
 
 ---
 ### Evolución número programas académicos de pregrado y postgrado
@@ -136,7 +143,7 @@ torta(
 
 class: inverse, middle, center
 
-# Inscritos y Admitidos
+# 2. Inscritos y Admitidos
 
 ---
 
@@ -441,7 +448,7 @@ torta(
 
 class: inverse, middle, center
 
-# Matriculados primera vez
+# 3. Matriculados primera vez
 
 ---
 
@@ -485,7 +492,7 @@ series(
 
 class: inverse, middle, center
 
-# Matriculados 
+# 4. Matriculados 
 
 ---
 
@@ -735,7 +742,7 @@ torta(
 
 class: inverse, middle, center
 
-# Graduados
+# 5. Graduados
 
 
 ---
@@ -941,7 +948,7 @@ torta(
 
 class: inverse, middle, center
 
-# Docentes de carrera
+# 6. Docentes de carrera
 
 ---
 
@@ -1293,7 +1300,7 @@ torta(
 
 class: inverse, middle, center
 
-# Razón de estudiantes por docente
+# 7. Razón de estudiantes por docente
 
 ---
 
@@ -1365,7 +1372,7 @@ barra_vertical(
 
 class: inverse, middle, center
 
-# Administrativos de carrera
+# 8. Administrativos de carrera
 
 ---
 
@@ -1594,7 +1601,7 @@ torta(
 
 class: inverse, middle, center
 
-# Capacidad y resultados de investigación
+# 9. Capacidad y resultados de investigación
 
 ---
 
@@ -1948,7 +1955,7 @@ torta(
 
 class: inverse, middle, center
 
-# Bienestar Universitario <br/> <br/> Área de Gestión y Fomento Socieconómico
+# 10. Bienestar Universitario <br/> <br/> Área de Gestión y Fomento Socieconómico
 
 ---
 
@@ -2024,7 +2031,7 @@ torta(
 
 class: inverse, middle, center
 
-# Resultados Pruebas Saber PRO 2017
+# 11. Resultados Pruebas Saber PRO 2017
 
 ---
 
@@ -2509,7 +2516,7 @@ ggplotly(p)
 
 class: inverse, middle, center
 
-# Análisis de Deserción en Pregrado
+# 12. Análisis de Deserción en Pregrado
 
 ---
 
