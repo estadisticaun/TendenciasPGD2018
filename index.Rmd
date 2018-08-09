@@ -59,6 +59,13 @@ Programas <- series(
 # <h3> Evolución número programas académicos de postgrado </h3>
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+
+col <-   c("#8cc63f", # verde
+           "#6d6666", # gris, Tumaco)
+           "#29abe2", # azul claro
+           "#f15a24" # naranja
+           ) 
+
 series(
   datos = Tendencias,
   categoria = "ProgramasP",
@@ -77,6 +84,11 @@ series(
 ano <- 2017
 semestre <- 2 # 1 o 2 según corresponda
 periodo_actual_titulo <- " 2017"
+
+
+col <-   c("#8cc63f", # verde
+           "#29abe2" # azul claro
+           ) 
 
 torta(
   datos = Tendencias,
@@ -100,6 +112,12 @@ ano <- 2017
 semestre <- 2 # 1 o 2 según corresponda
 periodo_actual_titulo <- " 2017"
 
+
+col <-   c("#8cc63f", # verde
+           "#29abe2", # azul claro
+           "#f15a24" # naranja
+           )  
+
 torta(
   datos = Tendencias,
   variable = "AcreditacionPOS",
@@ -122,10 +140,13 @@ ano <- 2017
 semestre <- 2 # 1 o 2 según corresponda
 periodo_actual_titulo <- " 2017"
 
-col <-   c( "#8cc63f", # verde
-            "#0071bc",
-            "#c1272d", # rojo
-            "#29abe2") # azul claro
+col <-   c("#6d6666", # gris, Tumaco)
+           "#8cc63f", # verde
+           "#29abe2", # azul claro
+           "#f15a24" # naranja
+           )  
+
+
 torta(
   datos = Tendencias,
   variable = "AcreditacionPOST",
