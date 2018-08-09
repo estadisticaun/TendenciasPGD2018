@@ -1926,7 +1926,7 @@ series_a(
 ```
 ---
 
-# <h3> Producción acumulada de citaciones en SCOPUS Periodo 2007-2016 </h3>
+# <h3> Número de citaciones en SCOPUS Periodo 2007-2016 </h3>
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
 ano <- 2016
