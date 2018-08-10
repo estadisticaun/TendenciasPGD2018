@@ -104,7 +104,7 @@ torta(
 ```
 ---
 
-# <h3> Proporción de programas acreditados de postgrado </h3>
+# <h3> Proporción de programas acreditados de postgrado - Total </h3>
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
 
@@ -133,7 +133,7 @@ torta(
 
 ---
 
-# <h3> Proporción de programas acreditados de postgrado </h3>
+# <h3> Proporción de programas acreditados de postgrado - Acreditables</h3>
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
 ano <- 2017
