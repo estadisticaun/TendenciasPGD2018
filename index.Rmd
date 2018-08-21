@@ -279,7 +279,7 @@ barra_horizontal(
   periodo = semestre,
   periodo_titulo = periodo_actual_titulo,
   titulo = " ", 
-  eje = "Número de inscritos (K miles)")
+  eje = "Número de inscritos")
 
 ```
 ---
@@ -309,7 +309,7 @@ barra_horizontal(
   periodo = semestre,
   periodo_titulo = periodo_actual_titulo,
   titulo = " ", 
-  eje = "Número de admitidos)")
+  eje = "Número de admitidos")
 
 ```
 
