@@ -1541,7 +1541,7 @@ series_a(
   categoria = "AdministrativosEDAD",
   colores = col,
   titulo = " ",
-  eje = "Número de docentes"
+  eje = "Número de administrativos"
 )
 ```
 

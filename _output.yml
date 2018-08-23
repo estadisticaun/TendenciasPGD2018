@@ -6,7 +6,7 @@ xaringan::moon_reader:
     countIncrementalSlides: false
   includes:
     after_body: libs/unal/html/scripts.html
-    in_header: libs/unal/html/style.html
+    in_header: [google_analytics.html, libs/unal/html/style.html]
     
     
     
