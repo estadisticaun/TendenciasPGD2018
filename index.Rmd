@@ -1,7 +1,7 @@
 ---
 title: "TENDENCIAS UN"
 author: "<br/> Oficina Nacional de Estadística <br/> Dirección Nacional de Planeación y Estadística <br/> <br/> <br/> <br/> <br/> UNIVERSIDAD NACIONAL DE COLOMBIA"
-date: "2018/08/09"
+date: "2018/08/27"
 ---
 
 ```{r setup, include=FALSE}
@@ -13,26 +13,62 @@ options(htmltools.dir.version = FALSE)
 source("Manipulación.R")
 source("Funciones.R", encoding = 'UTF-8')
 ```
+# Objetivo de la presentación
 
+Presentar a la comunidad universitaria y  a la sociedad en general las tendencias y el comportamiento actual de un número importante de estadísticas e indicadores institucionales de la [Universidad Nacional de Colombia](http://unal.edu.co/). Esperamos que la disposición y el análisis de esta información y de otras fuentes disponibles, alimenten el debate en los diferentes espacios de construcción colectiva  que acompañarán los procesos de construcción del [Plan Global de Desarrollo 2019-2021](http://plei2030.unal.edu.co/) y del [Plan Estratégico Institucional 2030](http://plei2030.unal.edu.co/).
+
+---
+### Otras Fuentes institucionales de información cuantitativa 
+
+
+1.	Nivel Nacional: 
+Serie de Revista de Estadísticas e Indicadores de la Universidad - Dirección Nacional de Planeación y Estadística
+
+  - Sitio Web: http://www.onp.unal.edu.co/  -  Pestaña publicaciones  - Opción revistas
+
+2.	La sede en cifras de la Oficina de Planeación y Estadística de la Sede Bogotá
+
+  - Sitio Web: http://planeacion.bogota.unal.edu.co/cifras.html
+
+3.	Información estadística de la Sede Medellín provista por la Oficina de Planeación y Estadística.
+
+  - Sitio Web: http://planeacion.medellin.unal.edu.co/ opción ESTADÍSTICA
+
+4. Información estadística de la Sede Palmira provista por la Oficina de Planeación y Estadística.
+
+  - Sitio Web:   http://www.palmira.unal.edu.co/index.php/lasede/gestion opción Boletines Estadísticos
+  
+---
+## Consideraciones para el uso adecuado de la presentación
+
+  1.	<p style="font-size:100%;"> Dar click en la letra H para desplegar las distintas opciones de navegación que ofrece la presentación.</p>
+  
+  2.	<p style="font-size:100%;"> Dar click en la tecla Esc para salir del modo "Pantalla Completa"</p>
+  
+  3.	<p style="font-size:100%;"> La opción “Pantalla Completa” presenta problemas en los dispositivos móviles Ipad e Iphone de Apple.</p>
+  
+  4.	<p style="font-size:100%;"> Buena parte de los gráficos contenidos en las distintas diapositivas pueden ser “manipulados” al hacer click en las distintas opciones/etiquetas que los acompañan.</p>
+
+---
 # Contenido
 
 .pull-left[
- ### [1. Programas académicos](https://estadisticaun.github.io/TendenciasPGD2018/#3)
- ### [2. Inscritos y admitidos](https://estadisticaun.github.io/TendenciasPGD2018/#9)
- ### [3. Matriculados primera vez](https://estadisticaun.github.io/TendenciasPGD2018/#24)
- ### [4. Matriculados](https://estadisticaun.github.io/TendenciasPGD2018/#27)
- ### [5. Graduados](https://estadisticaun.github.io/TendenciasPGD2018/#38)
- ### [6. Docentes de carrera](https://estadisticaun.github.io/TendenciasPGD2018/#47) 
+ ### [1. Programas académicos](https://estadisticaun.github.io/TendenciasPGD2018/#6)
+ ### [2. Inscritos y admitidos](https://estadisticaun.github.io/TendenciasPGD2018/#13)
+ ### [3. Matriculados primera vez](https://estadisticaun.github.io/TendenciasPGD2018/#29)
+ ### [4. Matriculados](https://estadisticaun.github.io/TendenciasPGD2018/#33)
+ ### [5. Graduados](https://estadisticaun.github.io/TendenciasPGD2018/#45)
+ ### [6. Docentes de carrera](https://estadisticaun.github.io/TendenciasPGD2018/#55) 
  ]
  
  .pull-right[
  
- ### [7. Razón de estudiantes por docente](https://estadisticaun.github.io/TendenciasPGD2018/#62) 
- ### [8. Administrativos de carrera](https://estadisticaun.github.io/TendenciasPGD2018/#66) 
- ### [9. Capacidad y resultados de investigación](https://estadisticaun.github.io/TendenciasPGD2018/#76) 
- ### [10. Bienestar universitario](https://estadisticaun.github.io/TendenciasPGD2018/#92) 
- ### [11. Pruebas Saber PRO 2017](https://estadisticaun.github.io/TendenciasPGD2018/#96) 
- ### [12. Deserción](https://estadisticaun.github.io/TendenciasPGD2018/#121) 
+ ### [7. Razón de estudiantes por docente](https://estadisticaun.github.io/TendenciasPGD2018/#71) 
+ ### [8. Administrativos de carrera](https://estadisticaun.github.io/TendenciasPGD2018/#76) 
+ ### [9. Capacidad y resultados de investigación](https://estadisticaun.github.io/TendenciasPGD2018/#87) 
+ ### [10. Bienestar universitario](https://estadisticaun.github.io/TendenciasPGD2018/#104) 
+ ### [11. Pruebas Saber PRO 2017](https://estadisticaun.github.io/TendenciasPGD2018/#109) 
+ ### [12. Deserción en Pregrado](https://estadisticaun.github.io/TendenciasPGD2018/#135) 
 ]
 
 ---
@@ -40,6 +76,13 @@ source("Funciones.R", encoding = 'UTF-8')
 class: inverse, middle, center
 
 # 1. Programas Académicos
+
+---
+## Fuentes de información y consideraciones metodológicas
+
+### Fuentes de información
+
+Información provista por la [Dirección Nacional de Planeación y Estadística](http://www.onp.unal.edu.co/) con base en la información consolidada en las direcciones nacionales de [Pregrado](http://www.pregrado.unal.edu.co/) y [Postgrado](http://www.posgrados.unal.edu.co/web/) de la Universidad.
 
 ---
 ### Evolución número programas académicos de pregrado y postgrado
@@ -165,6 +208,13 @@ torta(
 class: inverse, middle, center
 
 # 2. Inscritos y Admitidos
+
+---
+## Fuentes de información y consideraciones metodológicas
+
+### Fuentes de información
+
+Información consolidada en la [Dirección Nacional de Planeación y Estadística](http://www.onp.unal.edu.co/) con base en información suministrada por la [Dirección Nacional de Admisiones de la Universidad](http://www.admisiones.unal.edu.co/).
 
 ---
 
@@ -472,6 +522,13 @@ class: inverse, middle, center
 # 3. Matriculados primera vez
 
 ---
+## Fuentes de información y consideraciones metodológicas
+
+### Fuentes de información
+
+Información consolidada en la [Dirección Nacional de Planeación y Estadística](http://www.onp.unal.edu.co/) con base en información suministrada por la [Dirección Nacional de Información Académica](http://www.sia.unal.edu.co/)
+
+---
 
 # <h3> Evolución matriculados primera vez - pregrado </h3>
 
@@ -514,6 +571,13 @@ series(
 class: inverse, middle, center
 
 # 4. Matriculados 
+
+---
+## Fuentes de información y consideraciones metodológicas
+
+### Fuentes de información
+
+Información consolidada en la [Dirección Nacional de Planeación y Estadística](http://www.onp.unal.edu.co/) con base en información suministrada por la [Dirección Nacional de Información Académica](http://www.sia.unal.edu.co/)
 
 ---
 
@@ -765,6 +829,12 @@ class: inverse, middle, center
 
 # 5. Graduados
 
+---
+## Fuentes de información y consideraciones metodológicas
+
+### Fuentes de información
+
+Información consolidada en la [Dirección Nacional de Planeación y Estadística](http://www.onp.unal.edu.co/) con base en información suministrada por la [Secretaría General](http://secretaria.unal.edu.co/) de la Universidad.
 
 ---
 
@@ -970,6 +1040,14 @@ torta(
 class: inverse, middle, center
 
 # 6. Docentes de carrera
+
+---
+## Fuentes de información y consideraciones metodológicas
+
+### Fuentes de información
+
+
+Información consolidada en la [Dirección Nacional de Planeación y Estadística](http://www.onp.unal.edu.co/) con base en información suministrada por la [Dirección Nacional de Talento Humano](http://personal.unal.edu.co/) de la Universidad
 
 ---
 
@@ -1324,6 +1402,17 @@ class: inverse, middle, center
 # 7. Razón de estudiantes por docente
 
 ---
+## Fuentes de información y consideraciones metodológicas
+
+### Fuentes de información
+
+Indicador consolidado en la [Dirección Nacional de Planeación y  Estadística](http://www.onp.unal.edu.co/) de la Universidad.
+
+### Consideraciones metodológicas
+
+  - El total de docentes hace referencia a la cantidad pura de docentes activos en cada uno de los periodos académicos. No se hizo uso del total de docentes en tiempo completo equivalente.
+
+---
 
 # <h3> Evolución anual razón de estudiantes por docente </h3>
 
@@ -1394,6 +1483,13 @@ barra_vertical(
 class: inverse, middle, center
 
 # 8. Administrativos de carrera
+
+---
+## Fuentes de información y consideraciones metodológicas
+
+### Fuentes de información
+
+Información consolidada en la [Dirección Nacional de Planeación y Estadística](http://www.onp.unal.edu.co/) con base en información suministrada por la [Dirección Nacional de Talento](http://personal.unal.edu.co/) Humano de la Universidad
 
 ---
 
@@ -1623,6 +1719,13 @@ torta(
 class: inverse, middle, center
 
 # 9. Capacidad y resultados de investigación
+
+---
+## Fuentes de información y consideraciones metodológicas
+
+### Fuentes de información
+
+Información consolidada por la [Dirección Nacional de Planeación y Estadística](http://personal.unal.edu.co/) y la  [Vicerrectoría de Investigación](http://viceinvestigacion.unal.edu.co/index.php) de la Universidad y contenida tanto en la Revista de Estadísticas e Indicadores como en la publicación de [Capacidades de Investigación](http://investigacion.unal.edu.co/servicios/capacidades-de-investigacion/indicadores-2007-2016/)
 
 ---
 
@@ -1979,6 +2082,17 @@ class: inverse, middle, center
 # 10. Bienestar Universitario <br/> <br/> Área de Gestión y Fomento Socieconómico
 
 ---
+## Fuentes de información y consideraciones metodológicas
+
+### Fuentes de información
+
+Información consolidada en la [Dirección Nacional de Planeación y Estadística]() con base en información suministrada por la [Dirección Nacional de Bienestar Universitario](http://www.bienestar.unal.edu.co/) de la Universidad.
+
+### Consideraciones metodológicas
+
+- Únicamente se presenta información de los programas del Área de Gestión y Fomento Socioeconómico
+
+---
 
 # <h4> Evolución cobertura beneficiarios Área de Gestión y Fomento Socioeconómico</h4>
 
@@ -2056,10 +2170,26 @@ class: inverse, middle, center
 
 ---
 
+### Fuentes de información y consideraciones metodológicas
 
+#### Fuentes de información
 
+Información consolidada y procesada por la Dirección Nacional de Planeación y Estadística con base en información provista por el Instituto Colombiano para la Evaluación de la Educación ICFES.
 
+#### Consideraciones metodológicas
 
+* El análisis se realizó con base en los resultados obtenidos por los estudiantes evaluados en el año 2017.
+<br/>
+* El análisis se adelantó sobre las cinco [competencias genéricas](http://www.icfes.gov.co/docman/estudiantes-y-padres-de-familia/saber-pro-estudiantes-y-padres/estructura-general-del-examen/modulos-saber-pro-2018-1/modulos-primera-sesion-competencias-genericas-17/3809-guia-de-orientacion-modulos-de-competencias-genericas-saber-pro-2017/file?force-download=1) evaluadas en el Examen Saber PRO:
+  + Lectura Crítica
+  + Razonamiento Cuantitativo
+  + Competencias Ciudadanas
+  + Comunicación Escrita
+  + Inglés 
+<br/>
+* Los escenarios creados para efectos de análisis son creaciones institucionales para poder analizar de una mejor manera la información disponible.
+
+---
 # <h3> Pruebas y competencias evaluadas en las pruebas Saber Pro 2017 </h3>
 
 ![](Imagenes/SaberPRO.png)
@@ -2538,6 +2668,22 @@ ggplotly(p)
 class: inverse, middle, center
 
 # 12. Análisis de Deserción en Pregrado
+
+---
+
+### Fuentes de información y consideraciones metodológicas
+
+#### Fuentes de información
+
+Información consolidada y procesada por la Dirección Nacional de Planeación y Estadística con base en información disponible en el [Sistema de Prevención y Análisis de la Deserción en las Instituciones de Educación Superior](https://www.mineducacion.gov.co/sistemasdeinformacion/1735/w3-propertyname-2895.html) SPADIES del Ministerio de Educación Nacional.
+
+#### Consideraciones metodológicas
+
+* <p style="font-size:63%;"> El análisis de la deserción definitiva involucra básicamente dos metodologías de abordaje: deserción por cohortes o deserción por periodo. En esta presentación se hace uso de una aproximación a la deserción por cohortes.</p>
+* <p style="font-size:63%;"> Los nuevos desarrollos realizados en el SPADIES por parte del Ministerio de Educación han dificultado el reporte de información a este sistema por parte de la Universidad durante los años 2017 y 2018.</p> 
+* <p style="font-size:63%;"> Para efectos de este análisis se consideraron las cohortes de matriculados por primera vez en los años 2007 y 2008 y se evaluó su comportamiento 15 semestres después (deserción acumulada al periodo 15). Así mismo, se consideraron las cohortes 2014 y 2015 y se evaluó su comportamiento al periodo 2 (deserción a primer semestre)</p>
+* <p style="font-size:63%;"> Los programas académicos con una baja cobertura en matriculados por primera vez pueden presentar importantes variaciones en las cifras presentadas.</p>
+* <p style="font-size:63%;"> Por lo anterior, este análisis es una aproximación al comportamiento de este fenómeno en la institución el cual invita a los interesados a indagar y profundizar en los diferentes aspectos de esta problemática tanto a nivel global como local previo a la extracción de conclusiones finales.</p>
 
 ---
 
